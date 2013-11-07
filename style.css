@@ -2,8 +2,16 @@
 
 body {
     font-face: Helvetica, sans-serif;
-    margin: 2em 2.5em 1em;
     font-size: 0.8em;
+    padding: 40px 0;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+@media print {
+    body {
+        padding: 0 50px;
+    }
 }
 
 .inline {
