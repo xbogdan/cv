@@ -99,10 +99,6 @@ a:visited {
 }
 
 @media (max-width: 500px) {
-  .columns {
-    width: 100%;
-    position: relative;
-  }
   .columns > *:nth-child(1),
   .columns > *:nth-child(2),
   .columns > *:nth-child(3) {
