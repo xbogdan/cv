@@ -60,6 +60,10 @@ li {
   margin-left: 0px;
 }
 
+a {
+  font-weight: bold;
+}
+
 a:visited {
   color: blue;
 }
