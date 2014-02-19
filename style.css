@@ -3,7 +3,7 @@
 body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
-  padding: 40px 0;
+  padding: 40px 10px;
   max-width: 800px;
   margin: 0px auto;
 }
@@ -47,10 +47,6 @@ h3 {
   margin-top: 1em;
   margin-bottom: 0px;
   letter-spacing: 0.3px;
-}
-
-.nobold{
-  font-weight: normal;
 }
 
 ul {
@@ -100,4 +96,18 @@ a:visited {
   right: 4px;
   text-align: right;
   top: 0;
+}
+
+@media (max-width: 500px) {
+  .columns {
+    width: 100%;
+    position: relative;
+  }
+  .columns > *:nth-child(1),
+  .columns > *:nth-child(2),
+  .columns > *:nth-child(3) {
+    width: 100%;
+    position: static;
+    text-align: left;
+  }
 }
