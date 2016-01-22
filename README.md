@@ -1,1 +1,1 @@
-My personal curriculum vitae. Forked this on a whim at a Web Technologies laboratory at school because we had to invent a CV from scratch; probably won't be bothered to keep it updated.
+My personal résumé.
