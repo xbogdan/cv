@@ -191,3 +191,12 @@ hr {
 #last-updated.ready {
   opacity: 1;
 }
+
+.section__subtitle {
+  font-weight: bold;
+  margin-top: 15px !important;
+  margin-bottom: 5px;
+}
+.section__subtitle span {
+  font-weight: normal;
+}
