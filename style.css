@@ -15,7 +15,7 @@
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.4em;
+  line-height: 1.2em;
 
   color: #2c3e50;
 }
@@ -24,6 +24,12 @@ article {
   padding: 1.5em 1em;
   max-width: 800px;
   margin: 0 auto;
+}
+
+.entry {
+  /*page-break-before: ;*/
+  margin-top: 40px;
+  page-break-after: avoid;
 }
 
 @media (max-width: 700px) {
@@ -108,7 +114,7 @@ ul {
 }
 
 ul li {
-  margin-bottom: 1rem;
+  margin-bottom: .7em;
 }
 
 .columns {
